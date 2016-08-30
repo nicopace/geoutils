@@ -1,0 +1,33 @@
+{
+  "name": "geoutils",
+  "version": "1.0.0",
+  "description": "Geographic functions.",
+  "main": "index.js",
+  "scripts": {
+    "test": "./gulp.sh test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/nicopace/geoutils.git"
+  },
+  "author": "Nicolas Pace",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nicopace/geoutils/issues"
+  },
+  "homepage": "https://github.com/nicopace/geoutils#readme",
+  "devDependencies": {
+    "browserify": "13.1.0",
+    "eslint": "3.4.0",
+    "gulp": "3.9.1",
+    "gulp-eslint": "3.0.1",
+    "gulp-jscpd": "0.0.7",
+    "jasmine": "2.4.1",
+    "jasmine-core": "2.4.1",
+    "karma": "1.1.0",
+    "karma-browserify": "5.1.0",
+    "karma-coverage": "1.1.1",
+    "karma-jasmine": "1.0.2",
+    "karma-phantomjs-launcher": "1.0.1"
+  }
+}
